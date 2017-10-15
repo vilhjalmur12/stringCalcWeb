@@ -9,4 +9,10 @@ public class StringCalculatorTest {
         StringCalculator Calculator = new StringCalculator();
         assertEquals(0, Calculator.add(""));
     }
+
+    @Test
+    public void testOneNumber() {
+        StringCalculator Calculator = new StringCalculator();
+        assertEquals(1, Calculator.add("1"));
+    }
 }
