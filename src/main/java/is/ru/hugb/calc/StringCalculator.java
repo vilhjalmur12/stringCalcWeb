@@ -9,7 +9,7 @@ public class StringCalculator {
             return 0;
         }
         else if (input.contains(",")) {
-            Integer[] numbers = Stream.of(input.split(","))
+            Integer[] numbers = Stream.of(input.split(",|\\n"))
                 .map(Integer::valueOf).toArray(Integer[]::new);
             for (int number : numbers) {
                 sum += number;
