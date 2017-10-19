@@ -1,6 +1,20 @@
 Software Engineering (C-T-303-HUGB), Week 10 Fall Semester 2017
 
 # Continuous Integration with Travis & Heroku
+## This repo
+Status: \<Add Travis Status Badge\>
+
+Is a very simple Spark Web application, built with Gradle.
+
+* To run `gradle run`
+* To create a deployable package:
+    * `gradle installDist`
+    * This creates an executable in `build/install/<NAME-OF-PROJECT>/bin`, both a shell file and a bat file that can be run.
+* To run tests `gradle test`
+
+### Running
+Once running, head over to [localhost:4567](http://localhost:4567) and witness the magic.
+
 ## Objectives
 The objective is that the students experiment with setting up a continuous integration pipeline; from a code change to running tests automatically and getting feedback. In addition deploying a working artifact to a staging-like environment is a logical next step.
 
