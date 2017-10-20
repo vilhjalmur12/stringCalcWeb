@@ -1,5 +1,8 @@
 Software Engineering (C-T-303-HUGB), Week 10 Fall Semester 2017
 
+
+[![Build Status](https://travis-ci.org/vilhjalmur12/stringCalcWeb)](https://travis-ci.org/vilhjalmur12/stringCalcWeb)
+
 # Continuous Integration with Travis & Heroku
 ## This repo
 Status: \<Add Travis Status Badge\>
